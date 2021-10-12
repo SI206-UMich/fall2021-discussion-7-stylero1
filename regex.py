@@ -29,7 +29,7 @@ def find_word(string_list):
     x = r'\b([a-zA-Z]+)\d{3}([a-zA-Z]+)'
     # loop through each line of the string list 
     for line in string_list:
-        
+        #iteration
     # find all the words that match the regular expression in each line
         match = re.findall(x,line)
     # loop through the found words and add the words to your empty list 
