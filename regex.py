@@ -24,6 +24,7 @@ def find_word(string_list):
 
     # initialize an empty list
     word_list = []
+    #empty list
     # define the regular expression
     x = r'\b([a-zA-Z]+)\d{3}([a-zA-Z]+)'
     # loop through each line of the string list 
